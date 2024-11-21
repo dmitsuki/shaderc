@@ -20,7 +20,15 @@ when ODIN_OS == .Windows
 {
   @(extra_linker_flags = "/NODEFAULTLIB:libcmt")
   foreign import libshaderc {
-      "./libs/shaderc_combined.lib",
+      "./lib/shaderc_combined.lib",
+  }
+}
+
+when ODIN_OS == .Linux 
+{
+  foreign import libshaderc
+  {
+    "./lib/libshaderc_combined.a", "system:stdc++"
   }
 }
 
