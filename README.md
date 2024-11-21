@@ -56,8 +56,7 @@ This project is licensed under the [MIT](LICENSE) license. Please see
 
 ### Authors
 
-This project is initialized and mainly developed by Matthew Goodman
-([@antiagainst][me]).
+This project was initialized Matthew Goodman and this fork is currently maintained by dmitsuki
 
 [shaderc]: https://github.com/google/shaderc
 [me]: https://github.com/juxta-tad
